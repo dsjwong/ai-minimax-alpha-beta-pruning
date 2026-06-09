@@ -54,3 +54,19 @@ function alphabeta(node, depth, α, β, maximisingPlayer):
             if value <= α: break  # α cutoff
         return value
 ```
+
+## Environment
+
+Developed and tested with:
+
+- Python 3.9+
+- Jupyter Notebook / JupyterLab
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt      # if provided
+# or manually: pip install numpy pandas matplotlib scikit-learn torch torchvision
+```
+
+Open notebooks in order — each notebook builds on outputs from the previous one.
